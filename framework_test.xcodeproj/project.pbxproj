@@ -16,7 +16,6 @@
 		25F4C2E323A877C500FDB2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F4C2E123A877C500FDB2D5 /* LaunchScreen.storyboard */; };
 		25F4C2EE23A877C600FDB2D5 /* framework_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4C2ED23A877C600FDB2D5 /* framework_testTests.swift */; };
 		25F4C30623A8786A00FDB2D5 /* DataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F4C2FD23A8786900FDB2D5 /* DataLayer.framework */; };
-		25F4C30D23A8786A00FDB2D5 /* DataLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4C30C23A8786A00FDB2D5 /* DataLayerTests.swift */; };
 		25F4C30F23A8786A00FDB2D5 /* DataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F4C2FF23A8786900FDB2D5 /* DataLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25F4C31D23A8789400FDB2D5 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4C31C23A8789400FDB2D5 /* UserEntity.swift */; };
 		25F4C32023A878E700FDB2D5 /* UserDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4C31F23A878E700FDB2D5 /* UserDataStore.swift */; };
@@ -141,7 +140,6 @@
 		25F4C2FF23A8786900FDB2D5 /* DataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLayer.h; sourceTree = "<group>"; };
 		25F4C30023A8786900FDB2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25F4C30523A8786A00FDB2D5 /* DataLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		25F4C30C23A8786A00FDB2D5 /* DataLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLayerTests.swift; sourceTree = "<group>"; };
 		25F4C30E23A8786A00FDB2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25F4C31C23A8789400FDB2D5 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		25F4C31F23A878E700FDB2D5 /* UserDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataStore.swift; sourceTree = "<group>"; };
@@ -314,7 +312,6 @@
 			isa = PBXGroup;
 			children = (
 				25F4C36223A8AEA400FDB2D5 /* Store */,
-				25F4C30C23A8786A00FDB2D5 /* DataLayerTests.swift */,
 				25F4C30E23A8786A00FDB2D5 /* Info.plist */,
 			);
 			path = DataLayerTests;
@@ -950,7 +947,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				25F4C36423A8AEBD00FDB2D5 /* UserDataStoreTests.swift in Sources */,
-				25F4C30D23A8786A00FDB2D5 /* DataLayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
